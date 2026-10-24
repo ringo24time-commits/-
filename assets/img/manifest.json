@@ -1,0 +1,88 @@
+{
+  "_note": "喫茶けけけ Webサイト用画像マニフェスト。source_post は元Instagram投稿、alt は元投稿キャプションと写真内容に基づく。",
+  "about-1.jpg": {
+    "alt": "日差しの入る中庭に面した店内（2022年11月「カフェの場所が確定しました」の投稿より）",
+    "source_date": "2022-11-08",
+    "source_post": "https://www.instagram.com/p/CkuqKUspBdn/",
+    "substitute": false,
+    "usage": "About 過去開催の店内写真"
+  },
+  "hero.jpg": {
+    "alt": "第2回開催の店先で「けけけ」の看板を掲げるメンバー3人（2023年9月、第2回開催の御礼投稿より）",
+    "source_date": "2023-09-27",
+    "source_post": "https://www.instagram.com/p/CxshlgIS82M/",
+    "substitute": false,
+    "usage": "トップページ ヒーロー"
+  },
+  "journal-1.jpg": {
+    "alt": "第1回開催の店先でエプロン姿で並ぶメンバー3人（2022年12月、2日間の営業終了の御礼投稿より）",
+    "source_date": "2022-12-04",
+    "source_post": "https://www.instagram.com/p/ClxbKE5paFE/",
+    "substitute": false,
+    "usage": "Journal post-01（第1回御礼）アイキャッチ"
+  },
+  "journal-2.jpg": {
+    "alt": "第2回開催の店先で「けけけ」の看板を掲げるメンバー3人（2023年9月、第2回開催の御礼投稿より）",
+    "source_date": "2023-09-27",
+    "source_post": "https://www.instagram.com/p/CxshlgIS82M/",
+    "substitute": false,
+    "usage": "Journal post-02（第2回御礼）アイキャッチ"
+  },
+  "journal-3.jpg": {
+    "alt": "手描きの「kekeke」イラスト。店主・川上が喫茶けけけを開くにあたって考えていることを書いた投稿（2022年11月）の元画像そのまま",
+    "source_date": "2022-11-29",
+    "source_post": "https://www.instagram.com/p/ClkpNyJJuUj/",
+    "substitute": false,
+    "usage": "Journal post-03（川上の成り立ち）アイキャッチ"
+  },
+  "journal-radio.jpg": {
+    "alt": "ラジオ専用の投稿写真が無いため、第2回開催の集合写真（店先で看板を掲げるメンバー3人）で代替",
+    "source_date": "2023-09-27",
+    "source_post": "https://www.instagram.com/p/CxshlgIS82M/",
+    "substitute": true,
+    "substitute_reason": "Instagram全40投稿にラジオ単独の投稿・写真が存在しないため、指示に基づき第2回集合写真を使用",
+    "usage": "Journal post-04（ラジオ紹介）アイキャッチ"
+  },
+  "member-iino.jpg": {
+    "alt": "ベースを演奏する飯野雅空。趣味はベースとラーメン巡り（2022年11月のメンバー紹介投稿より）",
+    "source_date": "2022-11-18",
+    "source_post": "https://www.instagram.com/p/ClIVw83pY8x/",
+    "substitute": false,
+    "usage": "メンバー紹介 飯野雅空（カルーセル1枚目）"
+  },
+  "member-kawakami.jpg": {
+    "alt": "カメラを首から下げ、両手にコーヒーを持つ川上諒馬（2022年11月のメンバー紹介投稿より）",
+    "source_date": "2022-11-19",
+    "source_post": "https://www.instagram.com/p/ClKwEQOpyB5/",
+    "substitute": false,
+    "usage": "メンバー紹介 川上諒馬（カルーセル1枚目）"
+  },
+  "member-yano.jpg": {
+    "alt": "緑を背に立つ矢野杏香のフィルム写真。お菓子担当（2022年11月のメンバー紹介投稿より）",
+    "source_date": "2022-11-22",
+    "source_post": "https://www.instagram.com/p/ClQxBHCJTFj/",
+    "substitute": false,
+    "usage": "メンバー紹介 矢野杏香（カルーセル1枚目）"
+  },
+  "menu-coffee.jpg": {
+    "alt": "陶器のカップに注がれたコーヒー（2022年11月「珈琲豆の選定、着々と進んでおります」の投稿より）",
+    "source_date": "2022-11-10",
+    "source_post": "https://www.instagram.com/p/Ckz1Outp4HB/",
+    "substitute": false,
+    "usage": "メニュー コーヒー"
+  },
+  "menu-cuba.jpg": {
+    "alt": "こんがり焼けたキューバサンドとポテトチップス（2023年9月、キューバサンド続投のお知らせ投稿より）",
+    "source_date": "2023-09-06",
+    "source_post": "https://www.instagram.com/p/Cw3xVKJB9bS/",
+    "substitute": false,
+    "usage": "メニューページ／トップのキューバサンド写真（2026-10-24に新聞切り抜き版から差し替え）"
+  },
+  "menu-sweets.jpg": {
+    "alt": "オレンジソースがかかったほうじ茶のパンナコッタ（2023年9月の投稿より。パンナコッタは生クリーム、砂糖、牛乳を合わせて固めたもの）",
+    "source_date": "2023-09-16",
+    "source_post": "https://www.instagram.com/p/CxR55eerfl-/",
+    "substitute": false,
+    "usage": "メニュー お菓子"
+  }
+}
