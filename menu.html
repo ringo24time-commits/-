@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>メニュー｜喫茶けけけ</title>
+<meta name="description" content="喫茶けけけのメニュー。次回のメニューは未定のため、これまでお出ししたものを掲載しています（2023年開催時）。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&family=Oswald:wght@500&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="喫茶けけけ トップページ">
+      <span class="logo-mark" aria-hidden="true"><span class="logo-main">けけけ</span><span class="logo-sub">喫茶</span></span>
+      <span class="logo-name">喫茶けけけ</span>
+    </a>
+    <nav class="global-nav" aria-label="グローバルナビゲーション">
+      <ul>
+        <li><a href="visit.html">開催情報</a></li>
+        <li><a href="menu.html" aria-current="page">メニュー</a></li>
+        <li><a href="about.html">について</a></li>
+        <li><a href="members.html">メンバー</a></li>
+        <li><a href="journal.html">記録</a></li>
+      </ul>
+    </nav>
+    <div class="header-spacer" aria-hidden="true"></div>
+    <div class="header-actions">
+      <a class="header-ig" href="https://www.instagram.com/kissa_kekeke" target="_blank" rel="noopener" aria-label="喫茶けけけのInstagram（外部サイト）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.7" cy="6.3" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="btn btn-primary btn-small" href="visit.html">開催情報を見る</a>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="sp-menu" aria-label="メニューを開く">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+  <nav class="sp-menu" id="sp-menu" aria-label="スマートフォン用メニュー">
+    <ul>
+      <li><a class="sp-link" href="visit.html">開催情報</a></li>
+      <li><a class="sp-link" href="menu.html">メニュー</a></li>
+      <li><a class="sp-link" href="about.html">について</a></li>
+      <li><a class="sp-link" href="members.html">メンバー</a></li>
+      <li><a class="sp-link" href="journal.html">記録</a></li>
+      <li><a class="sp-link" href="contact.html">お問い合わせ・SNS</a></li>
+    </ul>
+    <a class="btn btn-primary" href="visit.html">開催情報を見る</a>
+    <p class="external-note mt-24">最新情報は <a href="https://www.instagram.com/kissa_kekeke" target="_blank" rel="noopener">Instagram @kissa_kekeke</a> でお知らせします。</p>
+  </nav>
+</header>
+
+<main>
+  <div class="container">
+    <div class="page-head">
+      <span class="caption">MENU</span>
+      <h1>メニュー</h1>
+      <p class="page-lead">喫茶けけけのメニュー表です。開催ごとに内容が変わります。</p>
+    </div>
+
+    <!-- メニュー表：黄枠＋紙白（FramedPaper）、グループ分けは罫線のみ -->
+    <div class="framed-paper">
+      <div class="paper">
+        <p class="menu-title-en" lang="en">Menu</p>
+        <h2 class="menu-paper-title">これまでお出ししたもの</h2>
+        <p class="menu-note">※ 次回のメニューは未定です。これは過去の開催（2023年）でお出ししたものです。<br>価格は当時のものです。</p>
+
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-item-name">コーヒー<span class="menu-item-desc">サーカスコーヒーさんの豆を使用</span></span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 450</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">水出しアイスコーヒー</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 450</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">烏龍茶</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 400</span>
+          </li>
+        </ul>
+
+        <hr class="menu-rule">
+
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-item-name">バスクチーズケーキ</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 600</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">パンナコッタ<span class="menu-item-desc">ほうじ茶のパンナコッタ、オレンジソースがけ（2023年）</span></span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 400</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">スコーン（チョコ）</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 300</span>
+          </li>
+        </ul>
+
+        <hr class="menu-rule">
+
+        <ul class="menu-list">
+          <li class="menu-row">
+            <span class="menu-item-name">魯肉飯</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 500</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">キューバサンド<span class="menu-item-desc">数量限定のため、事前にInstagramのDMで予約を受け付けました</span></span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 800</span>
+          </li>
+          <li class="menu-row">
+            <span class="menu-item-name">小倉トースト</span>
+            <span class="menu-leader" aria-hidden="true"></span>
+            <span class="menu-price">¥ 500</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="sec-partner">
+      <div class="section-head">
+        <h2 class="section-title" id="sec-partner">協力先のご紹介</h2>
+      </div>
+      <div class="content-narrow" style="margin:0; padding:0;">
+        <h3 class="h3" style="margin-bottom:8px;">サーカスコーヒーさん</h3>
+        <p>喫茶けけけの珈琲は、サーカスコーヒーさんの豆を使わせていただいています。豆の選定の記録は、<a href="journal.html">記録（Journal）</a>でも紹介予定です。</p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-name">喫茶けけけ</span>
+        <p>写真好き3人による、期間限定の喫茶店。<br>次回開催に向けて準備中です。</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <p class="footer-title">MENU</p>
+        <ul>
+          <li><a href="visit.html">開催情報</a></li>
+          <li><a href="menu.html">メニュー</a></li>
+          <li><a href="about.html">について</a></li>
+          <li><a href="members.html">メンバー</a></li>
+          <li><a href="journal.html">記録</a></li>
+          <li><a href="contact.html">お問い合わせ・SNS</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-title">INSTAGRAM</p>
+        <ul>
+          <li><a href="https://www.instagram.com/kissa_kekeke" target="_blank" rel="noopener">喫茶けけけ @kissa_kekeke</a></li>
+          <li><a href="https://www.instagram.com/kamikami.17" target="_blank" rel="noopener">川上諒馬 @kamikami.17</a></li>
+          <li><a href="https://www.instagram.com/iino_0613" target="_blank" rel="noopener">飯野雅空 @iino_0613</a></li>
+          <li><a href="https://www.instagram.com/kyooooone" target="_blank" rel="noopener">矢野杏香 @kyooooone</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> 喫茶けけけ</span>
+      <span>最新情報はInstagramでお知らせします</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
